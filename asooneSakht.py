@@ -1,0 +1,1 @@
+print(* (i for x,i in enumerate(map(int,input().split()))if i % 6==0 and (x+1) % 6 == 0))

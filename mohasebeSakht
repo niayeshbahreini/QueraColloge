@@ -1,0 +1,10 @@
+from math import * 
+
+a = int(input())
+def sakht(x):
+    first = pow(x,5/3) + tan(radians(x))
+    tavan = atan(pow(sin(radians(x)),2))
+    second = pow(pi , 2+ tavan)
+    return gcd(ceil(first),floor(second))
+    
+print(sakht(a))
